@@ -2,7 +2,6 @@
 
 #include <stdio.h>
 
-// 입력 다했으면 손 들어주세요.
 int main() {
     // mission 1
     char input1;
@@ -17,10 +16,6 @@ int main() {
     printf("면적을 제곱미터 단위로 입력하시오: ");
     scanf("%lf", &input2);
     printf("%.2lf제곱미터는 %.2lf평입니다. \n", input2, input2 / unit);
-
-    // 여기서부터
-
-    // 여기까지는 입력안해도 되요.
 
     return 0;
 }
